@@ -132,7 +132,7 @@
         }
 
         // Delete tag
-        $('#borrar_tag').click(function(){
+        $('#borrar_padre').click(function(){
 
             // Ajax request
             $.ajax({
