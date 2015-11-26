@@ -113,7 +113,7 @@ class ComunidadesController extends Controller {
      */
     public function getBorrado(PadreRequest $request)
     {
-        $id_comunidad = $request->id_comunidades;
+        $id_comunidad = $request->id_comunidad;
 
         $padre = Comunidad::findOrFail($id_comunidad);
         $padre->delete();
